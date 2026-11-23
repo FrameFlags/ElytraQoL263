@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "MIT"
+
+[[mods]]
+modId = "elytraqol263_1201"
+version = "1.0.0"
+displayName = "Elytra QoL"
+authors = "Itamio"
+description = '''
+Small non-rendering Elytra tweaks: optional speed-cap removal and optional rocket-boost disable. Scaffold release: rules and metadata only; in-game event wiring is not included.
+'''
+
+[[dependencies.elytraqol263_1201]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[47,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.elytraqol263_1201]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.20.1,1.21)"
+    ordering = "NONE"
+    side = "BOTH"

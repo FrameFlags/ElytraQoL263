@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "elytraqol263_1201",
+  "version": "${version}",
+  "name": "Elytra QoL",
+  "description": "Small non-rendering Elytra tweaks: optional speed-cap removal and optional rocket-boost disable. Scaffold release: rules and metadata only; in-game event wiring is not included.",
+  "authors": ["Itamio"],
+  "contact": {"homepage": "https://github.com/FrameFlags/ElytraQoL263", "sources": "https://github.com/FrameFlags/ElytraQoL263", "issues": "https://github.com/FrameFlags/ElytraQoL263/issues"},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {"main": ["itamio.elytraqol.ElytraQoLMod"]},
+  "depends": {"fabricloader": ">=0.15.11", "fabric-api": "*", "minecraft": "~1.20.1", "java": ">=17"}
+}
